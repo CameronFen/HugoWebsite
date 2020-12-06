@@ -1,7 +1,8 @@
 ---
-title: "Variational Inference for Fast Bayesian DSGE Estimation"
+title: "Imputing Data with Transformers"
 authors:
 - Cameron Fen
+- Zhengyuan Cui
 date: "2020-11-09T00:00:00Z"
 doi: ""
 
@@ -20,7 +21,7 @@ publication_short: ""
 
 abstract: ""
 # Summary. An optional shortened abstract.
-summary: This paper demonstrates how to use variational inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100 compared to Markov chain Monte Carlo.  
+summary: This paper uses a transformer neural network model to perform imputation of missing data.  The method returns a distribution which allows for easy marginalization which can allow for statistically efficent analysis when combined with a model for inference.    
 tags:
 - Bayesian Econometrics
 - DSGE Estimation

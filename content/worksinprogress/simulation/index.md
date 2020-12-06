@@ -21,7 +21,7 @@ publication_short: ""
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: This paper introduces a novel and robust method to perform maximum likelihood estimation without using a likelihood function and only relying on samples generated from the model.  
+summary: This paper introduces a novel, fast, and robust method to perform maximum likelihood estimation without using a likelihood function and only relying on samples generated from the model.  
 tags:
 - Econometrics
 - Empirical Maximum Likelihood

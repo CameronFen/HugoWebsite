@@ -18,10 +18,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Despite the big data and machine learning revolution, thus far, the standard models like auto-regressive models are still consistently used as a baseline. We introduce our neural network model along with a data augmentation strategy that allows our model to be competitive and outperform state-of-the-art models beyond 2 quarters ahead. We compare our model with the AR(2), the Smets Wouters DSGE, and a factor model which forms an "efficient" frontier of economic forecasting performance among all models tested. Our forecasts over the the longest time period, 5 quarters ahead, consistently outperforms the median forecast of the Survey of Professional Forecasters. Forecasts over different time windows, model specifications, along with Monte Carlo simulation suggests the performance of our model is robust, reproducible, and does not depend significantly on the randomness of the initialization and numerical optimization.  
-
+abstract: We introduce a neural network model along with a data augmentation scheme that consistently outperforms state-of-the-art models. The model provides better forecasts than AR(2), and a dynamic stochastic general equilibrium model over all horizons, a factor model on horizons longer than 2 periods ahead, and the median forecast of the Survey of Professional Forecasters at 5 quarters ahead. Forecasts over different time windows, model specifications, along with Monte Carlo simulation suggests the performance of our model is robust, reproducible, and does not depend significantly on the randomness of the initialization, reasonable changes in architecture, and numerical optimization.
 # Summary. An optional shortened abstract.
-summary: We use Recurrent Neural Networks to perform state-of-the-art forecasting of GDP, outperforming benchmark models like the AR(2), Smets-Wouters DSGE, and Factor Models.  
+# summary: We use Recurrent Neural Networks to perform state-of-the-art forecasting of GDP, outperforming benchmark models like the AR(2), Smets-Wouters DSGE, and Factor Models.  
+summary: We introduce a neural network model along with a data augmentation scheme that consistently outperforms state-of-the-art models. The model provides better forecasts than AR(2), and a dynamic stochastic general equilibrium model over all horizons, a factor model on horizons longer than 2 periods ahead, and the median forecast of the Survey of Professional Forecasters at 5 quarters ahead. Forecasts over different time windows, model specifications, along with Monte Carlo simulation suggests the performance of our model is robust, reproducible, and does not depend significantly on the randomness of the initialization, reasonable changes in architecture, and numerical optimization.
 tags:
 - Deep Learning
 - Recurrent Neural Networks
@@ -32,7 +32,7 @@ featured: true
 links:
 # - name: Custom Link
 #  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: '#'
 # url_dataset: '#'
 # url_poster: '#'
