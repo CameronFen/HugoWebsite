@@ -18,10 +18,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: We introduce a neural network model along with a data augmentation scheme that consistently outperforms state-of-the-art models. The model provides better forecasts than AR(2), and a dynamic stochastic general equilibrium model over all horizons, a factor model on horizons longer than 2 periods ahead, and the median forecast of the Survey of Professional Forecasters at 5 quarters ahead. Forecasts over different time windows, model specifications, along with Monte Carlo simulation suggests the performance of our model is robust, reproducible, and does not depend significantly on the randomness of the initialization, reasonable changes in architecture, and numerical optimization.
+abstract: We study the problem of GDP forecasting, introducing a neural network model, estimated with a data augmentation scheme, that consistently outperforms state-of-the-art economic models. The model outperforms an autoregressive model with 2 lags (AR(2)), and a dynamic stochastic general equilibrium (DSGE) model over all horizons, a factor model on horizons longer than 2 periods ahead, and the median forecast of the Survey of Professional Forecasters at 5 quarters ahead. Forecasts over different time windows, model specifications, along with Monte Carlo simulations suggest the performance of our model is robust and reproducible. Additionally, our tests show performance does not depend significantly on initialization of parameters, reasonable changes in architecture, and noise due to stochastic optimization. Forecasts evaluation across countries also suggests this model is able to successfully forecast GDP across many different policy regimes, jointly.  
 # Summary. An optional shortened abstract.
 # summary: We use Recurrent Neural Networks to perform state-of-the-art forecasting of GDP, outperforming benchmark models like the AR(2), Smets-Wouters DSGE, and Factor Models.  
-summary: We introduce a neural network model along with a data augmentation scheme that consistently outperforms state-of-the-art models. The model provides better forecasts than AR(2), and a dynamic stochastic general equilibrium model over all horizons, a factor model on horizons longer than 2 periods ahead, and the median forecast of the Survey of Professional Forecasters at 5 quarters ahead. Forecasts over different time windows, model specifications, along with Monte Carlo simulation suggests the performance of our model is robust, reproducible, and does not depend significantly on the randomness of the initialization, reasonable changes in architecture, and numerical optimization.
+summary: We study the problem of GDP forecasting, introducing a neural network model, estimated with a data augmentation scheme, that consistently outperforms state-of-the-art economic models. The model outperforms an autoregressive model with 2 lags (AR(2)), and a dynamic stochastic general equilibrium (DSGE) model over all horizons, a factor model on horizons longer than 2 periods ahead, and the median forecast of the Survey of Professional Forecasters at 5 quarters ahead. Forecasts over different time windows, model specifications, along with Monte Carlo simulations suggest the performance of our model is robust and reproducible. Additionally, our tests show performance does not depend significantly on initialization of parameters, reasonable changes in architecture, and noise due to stochastic optimization. Forecasts evaluation across countries also suggests this model is able to successfully forecast GDP across many different policy regimes, jointly.  
 tags:
 - Deep Learning
 - Recurrent Neural Networks
@@ -32,12 +32,12 @@ featured: true
 links:
 # - name: Custom Link
 #  url: http://example.org
-# url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: '/files/RNN_GDP.pdf'
 # url_code: '#'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-# url_slides: ''
+url_slides: '/files/RNN_pres.pdf'
 # url_source: '#'
 # url_video: '#'
 
