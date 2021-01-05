@@ -51,8 +51,8 @@ email: ""
 # - Visitors
 # ---
 ---
-Welcome to my website.  I work at the intersection of machine learning and macroeconomics.  I'm especially interested in using the tools of deep learning to improve forecasting as well as macroeconometric modeling. 
+Welcome to my website.  My work is at the intersection of machine learning and macroeconomics.  I'm especially interested in using the tools of deep learning to improve forecasting as well as macroeconometric modeling. 
 
-Here is my <a href="/files/cv.pdf">CV</a> 
+Here is my <a href="/files/cv.pdf">CV</a>. 
 
 Additionally, if you are a non-profit in need of data work, feel free to contact me and, if I'm able, I'm happy to donate my time.    
